@@ -1,48 +1,68 @@
 
 .nav-link:hover{
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #home{
-    background-color: #FFC000;
+  background-color: #FFC000;
+}
+
+.navbar-brand{
+font-family: "Caveat", cursive;
+font-weight: bold;
+font-size: xx-large;
+}
+
+h1{
+font-family: "Caveat", cursive;
+
+}
+
+.myheadline{
+font-family: "Zilla Slab", serif;
 }
 
 #project{
-    background-color: #FFC000;
+  background-color: #FFC000;
 }
 
 .card{
-    box-shadow: 3px 3px 5px 0px gray;
+  box-shadow: 3px 3px 5px 0px gray;
 
 }
 
 .mycard  :hover{
-    cursor: pointer;
-    opacity: 80%;
+  cursor: pointer;
+  opacity: 80%;
 }
 
 /* .mycard >.card{
-    transition: 0.5s ease;
-   }
+  transition: 0.5s ease;
+ }
 
- .mycard >.card :hover{
-   transform: scale(1.1);
-  } */
+.mycard >.card :hover{
+ transform: scale(1.1);
+} */
 
-  .myprofil{
-    text-align: justify;
-  }
+.myprofil{
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+}
 
-  .mypost{
-    width: 95%;
-    max-width: 500px;
-    margin: 0px auto 20px auto;
-    padding: 20px;
-    box-shadow: 0px 0px 5px 0px gray;
-    border-radius: 10px;
-  }
+.nav-link,.card-text, .form-label, .btn{
+font-family: "Quicksand", sans-serif;
+}
 
-  i{
-    font-size: 25px;
-  }
+.mypost{
+  width: 95%;
+  max-width: 500px;
+  margin: 0px auto 20px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px gray;
+  border-radius: 10px;
+}
+
+i{
+  font-size: 25px;
+}
 
