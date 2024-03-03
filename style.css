@@ -33,20 +33,17 @@ font-family: "Zilla Slab", serif;
 
 .mycard  :hover{
   cursor: pointer;
-  opacity: 80%;
+  background-color: black;
+  color: white;
 }
-
-/* .mycard >.card{
-    transition: 0.5s ease;
-   }
-
- .mycard >.card :hover{
-   transform: scale(1.1);
-  } */
 
 .myprofil{
   text-align: justify;
   font-family: "Quicksand", sans-serif;
+}
+
+.card-text{
+text-align: justify;
 }
 
 .nav-link,.card-text, .form-label, .btn{
