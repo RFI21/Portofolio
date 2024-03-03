@@ -56,7 +56,7 @@
         <img src="img/home.jpg" class="shadow-lg d-block mx-auto mx-sm-auto  mx-md-auto   img-fluid img-thumbnail rounded-circle" alt="Bootstrap Themes"  loading="lazy " data-aos="flip-right" data-aos-duration="2500"/>
       </div>
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
-        <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3 text-sm-center text-lg-start"  data-aos="fade-left" data-aos-duration="1000">I'am <span class="link-danger">Muh. Rifai</span></h1>
+        <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3 text-sm-center text-lg-start"  >I'am <span class="link-danger">Muh. Rifai</span></h1>
         <p class="lead myheadline text-sm-center text-lg-start">Mahasiswa | Fullstack Web Developer</p>
       </div>
     </div>
@@ -210,6 +210,7 @@
     const tl = gsap.timeline({repeat:4, repeatDelay:0.5,delay: 1.3, yoyo:true});
     tl.from(".myheadline", {duration: 2, text:""})
     gsap.from('.svg1', {duration : 1.5, y: -90, opacity : 1 })
+    gsap.from('.display-4', { duration: 1, x: 100, opacity: 0, delay: 0.5, ease: 'back'})
   </script>
   </body>
 </html>
